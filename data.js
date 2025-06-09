@@ -1,131 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-messale-superiore",
-      "name": "Messale superiore",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "yaw": -3.09191789795611,
-        "pitch": 0.12594370739340377,
-        "fov": 1.3365071038314758
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.072773939395603,
-          "pitch": 0.032446892802951766,
-          "rotation": 0,
-          "target": "2-entrata-e-parco"
-        },
-        {
-          "yaw": 0.09579825484920867,
-          "pitch": 0.13568925179793112,
-          "rotation": 3.141592653589793,
-          "target": "1-lettura"
-        },
-        {
-          "yaw": -1.2328055665538677,
-          "pitch": 0.24684158227875663,
-          "rotation": 0,
-          "target": "4-navata-sinistra"
-        },
-        {
-          "yaw": 1.3658286368872812,
-          "pitch": 0.26513694314072467,
-          "rotation": 0,
-          "target": "4-navata-sinistra"
-        },
-        {
-          "yaw": -3.074124309080391,
-          "pitch": 0.14372388542413717,
-          "rotation": 3.141592653589793,
-          "target": "8-navata-cripta"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-lettura",
-      "name": "Lettura",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1472,
-      "initialViewParameters": {
-        "yaw": 2.653850649946108,
-        "pitch": 0.5924998252209832,
-        "fov": 1.3365071038314758
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.1745043145175327,
-          "pitch": 0.2534453986557139,
-          "rotation": 0,
-          "target": "3-navata-destra"
-        },
-        {
-          "yaw": -2.0576319710191804,
-          "pitch": 0.2031319413508328,
-          "rotation": 0,
-          "target": "4-navata-sinistra"
-        },
-        {
-          "yaw": 2.6411136273835325,
-          "pitch": 0.25767488009665485,
-          "rotation": 3.141592653589793,
-          "target": "0-messale-superiore"
-        },
-        {
-          "yaw": 2.6400393970006446,
-          "pitch": 0.09281658505102364,
-          "rotation": 0,
-          "target": "2-entrata-e-parco"
-        },
-        {
-          "yaw": 2.643046533933993,
-          "pitch": -0.4580103194952656,
-          "rotation": 0,
-          "target": "9-lignano-sabbiadoro"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-entrata-e-parco",
+      "id": "0-entrata-e-parco",
       "name": "Entrata e parco",
       "levels": [
         {
@@ -172,6 +48,130 @@ var APP_DATA = {
         {
           "yaw": 3.13194507142902,
           "pitch": -0.7600194823259656,
+          "rotation": 0,
+          "target": "9-lignano-sabbiadoro"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-messale-superiore",
+      "name": "Messale superiore",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1472,
+      "initialViewParameters": {
+        "yaw": -3.09191789795611,
+        "pitch": 0.12594370739340377,
+        "fov": 1.3365071038314758
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.072773939395603,
+          "pitch": 0.032446892802951766,
+          "rotation": 0,
+          "target": "0-entrata-e-parco"
+        },
+        {
+          "yaw": 0.09579825484920867,
+          "pitch": 0.13568925179793112,
+          "rotation": 3.141592653589793,
+          "target": "2-lettura"
+        },
+        {
+          "yaw": -1.2328055665538677,
+          "pitch": 0.24684158227875663,
+          "rotation": 0,
+          "target": "4-navata-sinistra"
+        },
+        {
+          "yaw": 1.3658286368872812,
+          "pitch": 0.26513694314072467,
+          "rotation": 0,
+          "target": "4-navata-sinistra"
+        },
+        {
+          "yaw": -3.074124309080391,
+          "pitch": 0.14372388542413717,
+          "rotation": 3.141592653589793,
+          "target": "8-navata-cripta"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-lettura",
+      "name": "Lettura",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1472,
+      "initialViewParameters": {
+        "yaw": 2.653850649946108,
+        "pitch": 0.5924998252209832,
+        "fov": 1.3365071038314758
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.1745043145175327,
+          "pitch": 0.2534453986557139,
+          "rotation": 0,
+          "target": "3-navata-destra"
+        },
+        {
+          "yaw": -2.0576319710191804,
+          "pitch": 0.2031319413508328,
+          "rotation": 0,
+          "target": "4-navata-sinistra"
+        },
+        {
+          "yaw": 2.6411136273835325,
+          "pitch": 0.25767488009665485,
+          "rotation": 3.141592653589793,
+          "target": "1-messale-superiore"
+        },
+        {
+          "yaw": 2.6400393970006446,
+          "pitch": 0.09281658505102364,
+          "rotation": 0,
+          "target": "0-entrata-e-parco"
+        },
+        {
+          "yaw": 2.643046533933993,
+          "pitch": -0.4580103194952656,
           "rotation": 0,
           "target": "9-lignano-sabbiadoro"
         }
@@ -248,13 +248,13 @@ var APP_DATA = {
           "yaw": -3.0356975764801923,
           "pitch": -0.15104027352955285,
           "rotation": 3.141592653589793,
-          "target": "0-messale-superiore"
+          "target": "1-messale-superiore"
         },
         {
           "yaw": 2.8704679182714585,
           "pitch": -0.04540467100108003,
           "rotation": 0,
-          "target": "1-lettura"
+          "target": "2-lettura"
         }
       ],
       "infoHotspots": []
@@ -316,7 +316,7 @@ var APP_DATA = {
           "yaw": 0.035910685859294134,
           "pitch": -0.06773014139224642,
           "rotation": 3.141592653589793,
-          "target": "1-lettura"
+          "target": "2-lettura"
         }
       ],
       "infoHotspots": []
@@ -395,13 +395,13 @@ var APP_DATA = {
           "yaw": 0.47261930125708496,
           "pitch": 0.023985498673422256,
           "rotation": 0,
-          "target": "2-entrata-e-parco"
+          "target": "0-entrata-e-parco"
         },
         {
           "yaw": 0.4732787402745817,
           "pitch": -0.3461603959411459,
           "rotation": 0,
-          "target": "1-lettura"
+          "target": "2-lettura"
         }
       ],
       "infoHotspots": []
@@ -443,7 +443,7 @@ var APP_DATA = {
           "yaw": -3.0619012440272098,
           "pitch": -0.17152550455929472,
           "rotation": 0,
-          "target": "1-lettura"
+          "target": "2-lettura"
         },
         {
           "yaw": 0.06243970016354439,
@@ -455,7 +455,7 @@ var APP_DATA = {
           "yaw": -3.0563263853675373,
           "pitch": -0.0033313973989166357,
           "rotation": 3.141592653589793,
-          "target": "2-entrata-e-parco"
+          "target": "0-entrata-e-parco"
         }
       ],
       "infoHotspots": []
@@ -493,7 +493,7 @@ var APP_DATA = {
           "yaw": -0.6345460217239562,
           "pitch": 0.4637678537806913,
           "rotation": 3.141592653589793,
-          "target": "2-entrata-e-parco"
+          "target": "0-entrata-e-parco"
         },
         {
           "yaw": -0.6753167395021098,
@@ -550,7 +550,7 @@ var APP_DATA = {
           "yaw": -1.5224596081571082,
           "pitch": 0.17229564611699644,
           "rotation": 0,
-          "target": "2-entrata-e-parco"
+          "target": "0-entrata-e-parco"
         }
       ],
       "infoHotspots": []
